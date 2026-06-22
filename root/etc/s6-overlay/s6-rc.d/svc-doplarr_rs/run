@@ -1,0 +1,13 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+cd /app/doplarr_rs/bin || exit
+
+if [[ -z ${LSIO_NON_ROOT_USER} ]]; then
+    exec \
+        s6-setuidgid abc \
+        /app/doplarr_rs/bin/doplarr_rs /config/config.toml
+else
+    exec \
+        /app/doplarr_rs/bin/doplarr_rs /config/config.toml
+fi

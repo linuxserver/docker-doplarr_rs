@@ -16,11 +16,11 @@ RUN \
     | jq -r .tag_name); \
   fi && \
   DOPLARR_RS_VER=${DOPLARR_RS_RELEASE#v} && \
-  curl -o \
-    /tmp/doplarr_rs -L \
+  curl -fsSL -o \
+    /tmp/doplarr_rs \
     "https://github.com/activexray/doplarr_rs/releases/download/v${DOPLARR_RS_VER}/doplarr-aarch64-unknown-linux-musl" && \
-  curl -o \
-    /tmp/config.example.toml -L \
+  curl -fsSL -o \
+    /tmp/config.example.toml \
     "https://raw.githubusercontent.com/activexray/doplarr_rs/refs/tags/v${DOPLARR_RS_VER}/config.example.toml" && \
   mkdir -p \
     /app/doplarr_rs/bin \

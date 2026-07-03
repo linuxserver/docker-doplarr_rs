@@ -2,9 +2,9 @@
 # project information
 project_name: doplarr_rs
 project_url: "https://github.com/activexray/doplarr_rs"
-project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo_title.png"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png"
 project_blurb: |
-  [{{ project_name|capitalize }}]({{ project_url }}) is a Discord bot for requesting media through *arr backends, written in Rust.."
+  [{{ project_name|capitalize }}]({{ project_url }}) is a Discord bot for requesting media through *arr backends, written in Rust.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_categories: "Media Requesters"
 # supported architectures

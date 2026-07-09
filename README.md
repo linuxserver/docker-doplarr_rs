@@ -37,9 +37,9 @@ Find us at:
 [![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-doplarr_rs%2Fjob%2Fmain%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-doplarr_rs/job/main/)
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Fci-tests.linuxserver.io%2Flinuxserver%2Fdoplarr_rs%2Flatest%2Fci-status.yml)](https://ci-tests.linuxserver.io/linuxserver/doplarr_rs/latest/index.html)
 
-[Doplarr_rs](https://github.com/activexray/doplarr_rs) is a Discord bot for requesting media through *arr backends, written in Rust.."
+[Doplarr_rs](https://github.com/activexray/doplarr_rs) is a Discord bot for requesting media through *arr backends, written in Rust.
 
-[![doplarr_rs](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo_title.png)](https://github.com/activexray/doplarr_rs)
+[![doplarr_rs](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png)](https://github.com/activexray/doplarr_rs)
 
 ## Supported Architectures
 

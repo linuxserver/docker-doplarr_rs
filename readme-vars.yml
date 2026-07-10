@@ -15,13 +15,11 @@ available_architectures:
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_env: false
-param_env_vars:
 param_usage_include_vols: true
 param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files"}
 # optional container parameters
 opt_param_usage_include_env: false
-opt_param_env_vars:
 readonly_supported: true
 nonroot_supported: true
 # application setup block
